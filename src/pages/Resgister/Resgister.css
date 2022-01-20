@@ -1,0 +1,157 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,300&display=swap");
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.overlay {
+  background-color: rgba(0, 0, 0, 0.3);
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+.resgister {
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+  height: calc(100vh - 36px);
+  background-image: url("https://1.bp.blogspot.com/-aAVctlJNxes/XXdP48TzUHI/AAAAAAAASCc/fU7lRH5azFkz59_lbHEeVOJp4RI5MqSJQCLcBGAs/s1600/hinh-nen-may-tinh-phong-canh-thien-nhien-full-hd%2B%252857%2529.jpg");
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  font-family: "Poppins", sans-serif;
+}
+.form {
+  position: absolute;
+  z-index: 99;
+}
+.form-heading {
+  color: white;
+  font-size: 48px;
+  font-weight: 400;
+  text-align: center;
+  margin: 0 0 26px;
+  text-align: center;
+  line-height: 42px;
+}
+.form-title {
+  color: #fff;
+  font-size: 30px;
+  line-height: 42px;
+  font-weight: 300;
+  text-align: center;
+  margin: 20px 0;
+}
+.form-gorup > input {
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  width: 380px;
+  color: #fff;
+  padding: 10px 15px;
+  color: #fff;
+  border-radius: 40px;
+  border: 0;
+  margin-bottom: 16px;
+  outline: none;
+  transition: all 0.2s linear;
+  border: 1px solid transparent;
+  background: rgba(255, 255, 255, 0.1);
+}
+.form-gorup input:hover {
+  background: transparent;
+  outline: none;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  border-color: rgba(255, 255, 255, 0.4);
+}
+
+.form-gorup > input::placeholder {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 400;
+}
+.button-form {
+  font-family: "Poppins", sans-serif;
+  color: #333;
+  padding: 20px 30px;
+  width: 100%;
+  border-radius: 40px;
+  border: 0;
+  margin-bottom: 16px;
+  outline: none;
+  text-align: center;
+  background-color: #fbceb5;
+  text-transform: uppercase;
+  font-size: 18px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.3s ease-in;
+}
+.button-form:hover {
+  background-color: #333;
+  color: #fff;
+}
+.form-gorup {
+  display: flex;
+  justify-content: space-between;
+  font-size: 10px;
+}
+.form-gorup > span {
+  font-size: 18px;
+  color: #fff;
+}
+.checkbox-wrap {
+  display: flex;
+  align-items: center;
+  color: #fbceb5;
+  font-weight: 500;
+  font-size: 18px;
+}
+.checkbox-wrap input {
+  margin-right: 10px;
+}
+.form > p {
+  color: #fff;
+  font-size: 24px;
+  font-weight: 400;
+  margin: 38px 0 24px 0;
+  text-align: center;
+}
+
+.social > button {
+  font-family: "Poppins", sans-serif;
+  border: 0;
+  outline: none;
+  font-size: 16px;
+  background-color: white;
+  text-align: center;
+  margin: 0 5px;
+  padding: 20px 0;
+  border-radius: 4px;
+  width: calc(50% - 10px);
+  transition: all 0.3s ease-in;
+  cursor: pointer;
+}
+.social > button:hover {
+  color: #fff;
+  background-color: #333;
+}
+.resgister-login-btn {
+  position: absolute;
+  padding: 15px 26px;
+  top: 50px;
+  right: 20px;
+  background-color: tomato;
+  cursor: pointer;
+  color: white;
+  font-size: 14px;
+  font-weight: 400;
+  border: none;
+  border-radius: 10px;
+}

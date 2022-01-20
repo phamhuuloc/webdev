@@ -1,0 +1,54 @@
+.navbar {
+  width: 100%;
+  height: 50px;
+  position: sticky;
+  background-color: rgba(233, 232, 232);
+  top: 0;
+  z-index: 999;
+  display: flex;
+  align-items: center;
+  font-family: "Josefin Sans", sans-serif;
+}
+.topLeft,
+.topRight {
+  flex: 3;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.topCenter {
+  flex: 6;
+}
+.navbar-img {
+  width: 40px;
+  height: 40px;
+  object-fit: cover;
+  border-radius: 100px;
+}
+.navbar-icons {
+  font-size: 20px;
+  color: #444;
+  margin-right: 10px;
+  cursor: pointer;
+}
+.menu {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.menu li ~ li {
+  margin-left: 20px;
+}
+.menu-item {
+  cursor: pointer;
+  font-size: 18px;
+  text-transform: uppercase;
+  font-weight: 300;
+}
+.search-icon {
+  font-size: 18px;
+  cursor: pointer;
+  color: #666;
+  margin-left: 20px;
+}
